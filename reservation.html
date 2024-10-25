@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VhoTel</title>
+    <link rel="stylesheet" href="reservation.css">
+    <script src="reservation.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="facility.html">Facility</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                </ul>
+            </nav>
+            <div class="container-form">
+                <form action="#">
+                    <h2 class="heading heading-yellow">Reservation Online</h2>
+                    <div class="form-field">
+                        <p>Your Name:</p>
+                        <input type="text" placeholder="Your Name" id="name" name="name">
+                    </div>
+                    <div class="form-field">
+                        <p>Your Email:</p>
+                        <input type="text" placeholder="Your Email" id="email" name="email">
+                    </div>
+                    <div class="form-field">
+                        <p>Check-in Date:</p>
+                        <input type="date" placeholder="Check-in Date" id="checkin" name="checkin">
+                    </div>
+                    <div class="form-field">
+                        <p>Check-Out Date:</p>
+                        <input type="date" placeholder="Check-Out Date" id="checkout" name="checkout">
+                    </div>
+                    <div class="form-field">
+                        <p>Age:</p>
+                        <input type="number" placeholder="Age" id="Age" name="Age">
+                    </div>
+                    <div class="form-field">
+                        <p>Room Type:</p>
+                        <select name="Select" id="room">
+                            <option value="1">1 Bed Room</option>
+                            <option value="2">2 Bed Room</option>
+                            <option value="3">Luxurious</option>
+                        </select>
+                    </div>
+                    <button class="btn" onclick="validate()">Make a reservation</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+               <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Rooms</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div> 
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Payment Otions</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Line</a></li>
+                    </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+</html>
